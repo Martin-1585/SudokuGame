@@ -67,9 +67,9 @@ function App(){
       </h1>
 
       <div style = {{marginBottom: '20px'}}>
-        <button onClick={() => NstartGame('Easy')} style = {{borderRadius: '20%', width: '55px', height: '25px', textAlign:'center', justifyContent: 'left', backgroundColor: '#4A9DAE', color: '#000000'}}>EASY</button>
-        <button onClick={() => NstartGame('Medium')} style = {{borderRadius: '20%', width: '65px', height: '25px', textAlign: 'center', justifyContent: 'center',  backgroundColor: '#4A9DAE', color: '#000000',margin: '0 10px'}}>MEDIUM</button>
-        <button onClick={() => NstartGame('Hard')}style = {{borderRadius: '20%', width: '55px', height: '25px', textAlign:'center', justifyContent: 'right', backgroundColor: '#4A9DAE', color: '#000000'}} >HARD</button>
+        <button onClick={() => NstartGame('Easy')} style = {{borderRadius: '20%', width: '55px', height: '25px', textAlign:'center', justifyContent: 'left', backgroundColor: '#4A9DAE', color: '#000000', fontWeight: 'bold'}}>EASY</button>
+        <button onClick={() => NstartGame('Medium')} style = {{borderRadius: '20%', width: '65px', height: '25px', textAlign: 'center', justifyContent: 'center',  backgroundColor: '#4A9DAE', color: '#000000',margin: '0 10px', fontWeight: 'bold'}}>MEDIUM</button>
+        <button onClick={() => NstartGame('Hard')}style = {{borderRadius: '20%', width: '55px', height: '25px', textAlign:'center', justifyContent: 'right', backgroundColor: '#4A9DAE', color: '#000000', fontWeight: 'bold'}} >HARD</button>
       </div>
 
       <div
